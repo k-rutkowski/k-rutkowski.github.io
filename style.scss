@@ -18,8 +18,8 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
+  background: #fefefe;
+  font: 16px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -38,6 +38,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
+
+  a:hover, a:active {
+    text-decoration: none;
+    color: #306aa0;
+  }
 
   @include mobile {
     line-height: 1.4;
@@ -151,6 +156,7 @@ img {
 //
 
 .wrapper-masthead {
+  background: #fcfcfc;
   margin-bottom: 50px;
 }
 
@@ -191,13 +197,18 @@ img {
 }
 
 .site-name {
-  margin: 0;
-  color: $darkGray;
+  margin: 10px 5px;
+  /*color: $darkGray;*/
+  color: #902010;
   cursor: pointer;
   font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
+  font-weight: 400;
+  font-size: 30px;
   letter-spacing: 1px;
+  a:hover, a:active {
+    text-decoration: none;
+    color: #902010;
+  }
 }
 
 .site-description {
@@ -212,9 +223,9 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 24px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
-  font-size: 18px;
+  font-size: 20px;
 
   @include mobile {
     float: none;
@@ -225,10 +236,15 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    /*color: $darkGray;*/
+	color: #902010;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+    &:hover, &:active {
+	  text-decoration: underline;
+	  color: #a02010;
+    }
 
     @include mobile {
       margin: 0 10px;
@@ -275,7 +291,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #fcfcfc;
 }
 
 footer {
