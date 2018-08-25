@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Krzysztof Rutkowski and I work professionally as C++ developer since 2013. This site is collection of notes -- mostly related to my daily encounters as programmer -- I decided to keep for some reason. It's supposed to work as extension of my long term memory, but if you find anything helpful for you I'm especially pleased. I'm also open to criticism so don't hesitate to correct me if you think I'm wrong or stupid or both.
 
-### More Information
+<div style="height: 100px"></div>
 
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+### Contact
+[krzysztof.rutk (at) gmail.com]()

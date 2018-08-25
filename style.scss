@@ -19,7 +19,12 @@ html {
 
 body {
   background: #fefefe;
-  font: 16px/1.4 $helvetica;
+  font-weight: 300;
+  font-size: 18px;
+  font-family: 'Lato', $helveticaNeue;
+  line-height: 1.2;
+  text-align: justify;
+  /*font: 16px/1.4 $helvetica;*/
   color: $darkGray;
 }
 
@@ -31,9 +36,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: 'Lato', $helveticaNeue;
   color: $darkerGray;
-  font-weight: bold;
+  font-weight: 400;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -121,6 +126,9 @@ img {
 }
 
 .date {
+  margin-bottom: 32px;
+  font-weight: 300;
+  font-size: 16px;
   font-style: italic;
   color: $gray;
 }
@@ -198,11 +206,10 @@ img {
 
 .site-name {
   margin: 10px 5px;
-  /*color: $darkGray;*/
   color: #902010;
   cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 400;
+  font-family: 'Lato', $helveticaNeue;
+  font-weight: 500;
   font-size: 30px;
   letter-spacing: 1px;
   a:hover, a:active {
@@ -288,7 +295,7 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  margin-top: 150px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: #fcfcfc;
