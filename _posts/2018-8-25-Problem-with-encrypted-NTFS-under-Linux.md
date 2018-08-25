@@ -10,13 +10,15 @@ $MFTMirr does not match $MFT (record 0).
 Failed to mount '/dev/mapper/veracrypt2': Input/output error
 {% endhighlight %}
 
-There is a tool to fix this -- <em>ntfsfix</em>, but how to use it on the partition that is encrypted with Veracrypt?
+There is a tool to fix this -- <code>ntfsfix</code>, but how to use it on the partition that is encrypted with Veracrypt?
+
+<!--more-->
 
 Here is the solution:
 <ol>
-<li>Mount the volume with option <em>--filesystem=none</em> if using command line tool or by selecting <em>"Do not mount"</em> in the window prompting for password if using GUI.
+<li>Mount the volume with option <code>--filesystem=none</code> if using command line tool or by selecting <code>Do not mount</code> in the window prompting for password if using GUI.
 </li>
-<li>Execute following command as root (<em>veracrypt2</em> is for slot 2 - replace it with the slot you're using):
+<li>Execute following command as root (<code>veracrypt2</code> is for slot 2 - replace it with the slot you're using):
 {% highlight bash %}
 ntfsfix /dev/mapper/veracrypt2
 {% endhighlight %}
