@@ -16,13 +16,13 @@ There is a tool to fix this -- <code>ntfsfix</code>, but how to use it on the pa
 
 Here is the solution:
 <ol>
-<li>Mount the volume with option <code>--filesystem=none</code> if using command line tool or by selecting <code>Do not mount</code> in the window prompting for password if using GUI.
+<li>Mount the volume with the option <code>--filesystem=none</code> if using the command line tool or by selecting <code>Do not mount</code> in the window prompting for a password if using GUI.
 </li>
-<li>Execute following command as root (<code>veracrypt2</code> is for slot 2 - replace it with the slot you're using):
+<li>Execute the following command as root (<code>veracrypt2</code> is for slot 2 - replace it with the slot you're using):
 {% highlight bash %}
-ntfsfix /dev/mapper/veracrypt2
+$ ntfsfix /dev/mapper/veracrypt2
 {% endhighlight %}
-Result should look like this:
+The result should look like this:
 {% highlight bash %}
 Mounting volume... $MFTMirr does not match $MFT (record 0).
 FAILED
