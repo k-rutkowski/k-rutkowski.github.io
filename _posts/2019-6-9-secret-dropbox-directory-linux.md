@@ -1,6 +1,10 @@
 ---
 layout: post
+<<<<<<< HEAD
 title: Secret Dropbox directory on Linux OS
+=======
+title: Secret the Dropbox directory on Linux OS
+>>>>>>> a63ab96ac530dea56c4e8cf7609d3d1cf5e82fbf
 tags: [ linux, veracrypt, dropbox ]
 ---
 
