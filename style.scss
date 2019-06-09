@@ -20,11 +20,10 @@ html {
 body {
   background: #fefefe;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Lato', $helveticaNeue;
   line-height: 1.2;
   text-align: justify;
-  /*font: 16px/1.4 $helvetica;*/
   color: $darkGray;
 }
 
@@ -114,6 +113,7 @@ em, i {
 
 strong, b {
   font-weight: bold;
+  font-size: 90%;
 }
 
 img {
