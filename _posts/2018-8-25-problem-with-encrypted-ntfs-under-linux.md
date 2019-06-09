@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Problem with encrypted NTFS partinion under Linux
+title: Problem with encrypted NTFS partition under Linux
 tags: [ linux, veracrypt ]
 ---
 
