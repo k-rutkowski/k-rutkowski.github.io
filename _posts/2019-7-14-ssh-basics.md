@@ -72,8 +72,8 @@ This command copies file <code>sth.txt</code> from client's computer to <i>john<
 
 Few more examples with non default port and different directories:
 {% highlight bash %}
-$ scp -p 2222 sth.txt john@example.com:/path/on/sever/
-$ scp -p 2222 sth.txt john@example.com:/path/on/server/new_file_name.txt
+$ scp -P 2222 sth.txt john@example.com:/path/on/sever/
+$ scp -P 2222 sth.txt john@example.com:/path/on/server/new_file_name.txt
 {% endhighlight %}
 
 You can copy whole directories with switch <code>-r</code>:
