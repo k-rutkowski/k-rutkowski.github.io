@@ -58,5 +58,5 @@ Other usefull options:
 </table>
 
 <br/>
-These are only the most basic things you can do with <strong>lp</strong>. For more options check the <strong>man<strong> pages.
+These are only the most basic things you can do with <strong>lp</strong>. For more options check the <strong>man</strong> pages.
 
